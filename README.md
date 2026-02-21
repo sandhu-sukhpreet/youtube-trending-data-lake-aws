@@ -75,6 +75,19 @@ Completed and fully functional.
 ## Sample Query Results
 
 
-### Query Results  (screenshots/Query1.png,  screenshots/Query2.png,  screenshots/Query3.png)
+- Query Results  (screenshots/Query1.png,  screenshots/Query2.png,  screenshots/Query3.png)
 
-### S3 Partition Structure (screenshots/S3-Structure1.png, screenshots/S3-Structure2.png)
+- S3 Partition Structure (screenshots/S3-Structure1.png, screenshots/S3-Structure2.png)
+
+
+---
+
+
+## Key Highlights
+
+- 400,000+ records processed
+- 10-country partitioned dataset
+- Serverless architecture (no infrastructure management)
+- Cost-optimized using partitioned S3 layout
+- SQL-based analytics via Amazon Athena
+
