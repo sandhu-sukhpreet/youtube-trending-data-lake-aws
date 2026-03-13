@@ -17,6 +17,28 @@ The entire pipeline operates without provisioning or managing servers.
 
 ---
 
+## Project Structure
+
+youtube-trending-data-lake-aws/
+│
+├── data/
+│   └── raw/                    # Original dataset files used for upload
+│
+├── docs/
+│   ├── architecture.png        # System architecture diagram
+│   └── screenshots/            # Evidence screenshots from AWS
+│       ├── athena-row-count.png
+│       ├── athena-record-count-by-region.png
+│       ├── athena-total-views-by-region.png
+│       └── s3-partitioned-regions.png
+│
+├── queries/
+│   └── athena_queries.sql      # Example SQL queries used for analysis
+│
+└── README.md
+
+---
+
 ## AWS Services Used
 
 - **Amazon S3** – Data lake storage
@@ -62,8 +84,8 @@ This partitioned structure enables **partition pruning** in Athena, reducing que
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/sandhu-sukhpreet/youtube-trending-data-lake-aws.git
+cd youtube-trending-data-lake-aws
 ```
 
 ---
