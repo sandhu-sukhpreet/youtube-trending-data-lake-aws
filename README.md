@@ -19,6 +19,7 @@ The entire pipeline operates without provisioning or managing servers.
 
 ## Project Structure
 
+```
 youtube-trending-data-lake-aws/
 │
 ├── data/
@@ -36,7 +37,7 @@ youtube-trending-data-lake-aws/
 │   └── athena_queries.sql      # Example SQL queries used for analysis
 │
 └── README.md
-
+```
 ---
 
 ## AWS Services Used
